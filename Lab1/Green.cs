@@ -4,9 +4,17 @@
     {
         public bool Task1(double d)
         {
+           public bool Task1(double d)
+        {
             bool answer = false;
+            
 
             // code here
+            double a =Math.Abs(d);
+            answer = false;
+            answer = a >= 1;
+            
+            Console.WriteLine($"modul = {a} and answer = {answer}");
 
             // end
 
@@ -17,6 +25,8 @@
             bool answer = false;
 
             // code here
+            answer = ((f + d) / 2) > 0;
+            Console.WriteLine(answer);
 
             // end
 
